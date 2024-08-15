@@ -12,11 +12,16 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #007BFF; /* Change this value to any color you like */
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
+
+header nav ul li a:hover {
+    color: #FFD700; /* Optional: Change the hover color */
+}
+
 
 header h1 {
     margin-bottom: 10px;
